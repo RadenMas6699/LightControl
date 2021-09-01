@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:background="#fff"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".SmartHomeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp1"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp1" />
+
+            <ImageView
+                android:id="@+id/imgLamp1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp1"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp1"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp2"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp2" />
+
+            <ImageView
+                android:id="@+id/imgLamp2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp2"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/ll1" />
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp3"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp3" />
+
+            <ImageView
+                android:id="@+id/imgLamp3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp3"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp3"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp4"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp4" />
+
+            <ImageView
+                android:id="@+id/imgLamp4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp4"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp4"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/ll2" />
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp5"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp5" />
+
+            <ImageView
+                android:id="@+id/imgLamp5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp5"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp5"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp6"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp6" />
+
+            <ImageView
+                android:id="@+id/imgLamp6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp6"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp6"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/ll3" />
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v3"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp7"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp7" />
+
+            <ImageView
+                android:id="@+id/imgLamp7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp7"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp7"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescLamp8"
+                style="@style/TextDescLamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descLamp8" />
+
+            <ImageView
+                android:id="@+id/imgLamp8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/descLamp8"
+                android:src="@drawable/ic_lamp_off"
+                android:text="" />
+
+            <ToggleButton
+                android:id="@+id/btnLamp8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:onClick="BtnLamp8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

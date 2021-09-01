@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="tvPaired">Paired Devices</string>
+    <string name="btnPaired">PAIRED DEVICES</string>
+    <string name="descLamp1">Lampu 1</string>
+    <string name="descLamp2">Lampu 2</string>
+    <string name="descLamp3">Lampu 3</string>
+    <string name="descLamp4">Lampu 4</string>
+    <string name="descLamp5">Lampu 5</string>
+    <string name="descLamp6">Lampu 6</string>
+    <string name="descLamp7">Lampu 7</string>
+    <string name="descLamp8">Lampu 8</string>
+    <string name="lampOff">OFF</string>
+    <string name="lampOn">ON</string>
+</resources>
